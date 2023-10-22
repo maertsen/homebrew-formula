@@ -1,4 +1,4 @@
-class Aerc < Formula
+class AercNotmuch < Formula
   desc "Email client that runs in your terminal"
   homepage "https://aerc-mail.org/"
   url "https://git.sr.ht/~rjarry/aerc/archive/0.16.0.tar.gz"

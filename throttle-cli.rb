@@ -1,4 +1,4 @@
-class Foo < Formula
+class ThrottleCli < Formula
   include Language::Python::Virtualenv
 
   name "throttle-cli"

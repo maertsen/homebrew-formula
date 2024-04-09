@@ -2,15 +2,14 @@ class MaildirRankAddr < Formula
   desc "Generates a ranked addressbook from a maildir folder. It can be used in MUA's like aerc or mutt by grepping the list."
   homepage "https://github.com/ferdinandyb/maildir-rank-addr"
   url "https://github.com/ferdinandyb/maildir-rank-addr/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "a8a1af36b4d4989afd670601d83fc2088e14d804c66bd1e3bdd14561bd89c2cc"
+  sha256 "f28398765dd91aa4d0775fd1f7022dae5550c90919a2d84ba1d7d81370af283c"
   license "MIT"
   head "https://github.com/ferdinandyb/maildir-rank-addr", branch: "master"
 
   depends_on "go" => :build
 
   def install
-    system "make", "PREFIX=#{prefix}", "VERSION=#{version}"
-    system "make", "install", "PREFIX=#{prefix}"
+    system "go", "build", *std_go_args(ldflags: "-s -w -X main.Version=v#{version}")
   end
 
   test do

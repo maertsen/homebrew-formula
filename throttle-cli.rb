@@ -41,7 +41,7 @@ class ThrottleCli < Formula
 
   service do
     run opt_bin/"throttle-server"
-    environment_variables XDG_RUNTIME_DIR: ~/Library/Caches/TemporaryItems
+    environment_variables XDG_RUNTIME_DIR: "~/Library/Caches/TemporaryItems"
   end
 
   test do

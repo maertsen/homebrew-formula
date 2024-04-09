@@ -39,6 +39,10 @@ class ThrottleCli < Formula
     virtualenv_install_with_resources
   end
 
+  service do
+    run opt_bin/"throttle-server"
+  end
+
   test do
     system "#{bin}/throttle", "--status"
   end

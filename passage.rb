@@ -1,9 +1,9 @@
 class Passage < Formula
   desc "Fork of password-store that uses age instead of GnuPG"
   homepage "https://github.com/FiloSottile/passage"
-  url "https://github.com/FiloSottile/passage/archive/1.7.4a1.tar.gz"
-  version "1.7.4a1"
-  sha256 "0705ff409d4a6160ade347e63be623170da023ec199116dac83b406a18f7e0d7"
+  url "https://github.com/FiloSottile/passage/archive/1.7.4a2.tar.gz"
+  version "1.7.4a2"
+  sha256 "d4bd97be2eda4249b31c2042707ef70ba50385f6fb7791598f51be794168ee2c"
   license "GPL-2.0-or-later"
   head "https://github.com/FiloSottile/passage.git", branch: "main"
 

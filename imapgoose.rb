@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class ImapGoose < Formula
+class Imapgoose < Formula
   desc "Keep local Maildir directories synchronised with an IMAP server."
   homepage "https://git.sr.ht/~whynothugo/ImapGoose"
   sha256 "9eb05ed81a508555e607d56c5ba6c5bb2212d527de82e6a3cf27dd99dd0cf2cd"

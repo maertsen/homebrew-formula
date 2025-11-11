@@ -4,7 +4,8 @@
 class Imapgoose < Formula
   desc "Keep local Maildir directories synchronised with an IMAP server."
   homepage "https://git.sr.ht/~whynothugo/ImapGoose"
-  sha256 "9eb05ed81a508555e607d56c5ba6c5bb2212d527de82e6a3cf27dd99dd0cf2cd"
+  url "https://git.sr.ht/~whynothugo/ImapGoose/archive/v0.4.0.tar.gz"
+  sha256 "d4af405504a5aa95fb1dd86bc2013a15d210f0b6aef4621fed1108517a6866c1"
   license "ISC"
   head "https://git.sr.ht/~whynothugo/ImapGoose", branch: "main"
 
